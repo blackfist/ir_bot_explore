@@ -15,7 +15,7 @@ func New(name string, desc string) string {
 	// name string
 	// description string
 	// private boolean
-	// curl -H "Authorization: token 0b6b166138a3c432043a5afce96d3c78c4374381" \
+	// curl -H "Authorization: token GITHUB_TOKEN" \
 	// -H "Content-Type: application/json" \
 	// -X POST -d '{"name":"twilight-shape-1279","description":"a simple incident to manage","private":true}' \
 	// https://api.github.com/blackfist/repos
